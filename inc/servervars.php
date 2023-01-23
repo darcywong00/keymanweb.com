@@ -29,7 +29,7 @@
     require_once __DIR__ . '/../cdn/deploy/cdn.php';
   }
 
-  $site_url = 'keymanweb.com';
+  $site_url = 'localhost:8057'; #'keymanweb.com';
 
   // We allow the site to strip off everything post its basic siteurl
 

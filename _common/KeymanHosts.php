@@ -119,6 +119,9 @@
         $this->keymanweb_com = "{$site_protocol}keymanweb.com{$site_suffix}";
         $this->r_keymanweb_com = "https://r.keymanweb.com"; /// local dev domain is usually not available
       }
+      # DW overrides - do not commit to production
+      $this->api_keyman_com = "https://api.keyman.com";
+      $this->keymanweb_com = "http://localhost:8057";
 
       $this->blog_keyman_com_host = preg_replace('/^http(s)?:\/\/(.+)$/', '$2', $this->blog_keyman_com);
       $this->s_keyman_com_host  = preg_replace('/^http(s)?:\/\/(.+)$/', '$2', $this->s_keyman_com);
